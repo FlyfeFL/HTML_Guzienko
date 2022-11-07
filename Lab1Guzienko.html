@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание закладок и гиперссылок на Web-страницах</title>
+
+    <style>
+        body{
+            background-color: rgb(104, 135, 136);
+            color: white;
+            margin: 0;
+        }
+
+        a{
+            display: inline-block;
+            margin: 20px;
+        }
+        li a{
+            margin: 0;
+        }
+        a:visited{
+            color: rgb(66, 65, 65);
+        }
+        a:link{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <span id="nachalo"></span>
+    <marquee direction="left" width="100%" height="20" behavior="alternate" bgcolor="grey">
+        Цель работы: приобрести навыки работы с закладками и гиперссылками на Webстраницах.
+    </marquee>
+
+    <ol>
+        <li><a href="./index.html">Лабораторная работа №1. Задания 1-3</a></li>
+        <li><a href="./Lab1_zad4.html">Лабораторная работа №1. Задания 4</a></li>
+        <li><a href="./Lab1_zad5.html">Лабораторная работа №1. Задания 5</a></li>
+        <li><a href="./Lab1_zad6.html">Лабораторная работа №1. Задания 6</a></li>
+        <li><a href="./Lab1_zad7.html">Лабораторная работа №1. Задания 7</a></li>
+        <li><a href="./guzienko.html">Лабораторная работа №1. Часть 2</a></li>
+    </ol>
+
+    <ul>
+        <li><a href="https://yandex.ru" target="_blank">Яндекс</a></li>
+        <li><a href="https://www.google.ru/" target="_blank">Google</a></li>
+        <li><a href="https://mail.ru/" target="_blank">Mail</a></li>
+        <li><a href="https://www.yahoo.com/" target="_blank">Yahoo!</a></li>
+        <li><a href="https://www.bing.com/" target="_blank">Bing</a></li>
+    </ul>
+
+    <a href="./Lab1_zad6.html" title="Ссылка на задание 6." target="_blank">
+        <img src="https://www.meme-arsenal.com/memes/d8e49eb95724ac6e8eaafd79f538b46a.jpg" alt="Задание №7">
+    </a>
+
+    <a href="https://mem-baza.ru/_ph/1/2/796206409.jpg?1600933001" title="Подсказка :)">Вставить текстовую гиперссылку на произвольный графический файл.</a>
+
+    <a href="#nachalo" style="font-size: 40px;"> ВВЕРХ </a>
+</body>
+</html>
